@@ -17,8 +17,16 @@ export default function Navbar() {
   return (
     <header className="bg-surface border-b border-line sticky top-0 z-30">
       <div className="max-w-content mx-auto px-4 sm:px-6 md:px-10 py-3.5 flex flex-wrap items-center gap-3 sm:gap-4">
-        <Link href="/" className="font-heading font-bold text-lg sm:text-xl shrink-0">
-          Bak <span className="text-brand">Connexion</span>
+        <Link href="/" className="flex items-center gap-2 shrink-0">
+          <span className="w-8 h-8 rounded-md bg-brand flex items-end justify-center gap-[3px] p-1.5 shrink-0">
+            <span className="w-[3px] bg-white rounded-full" style={{ height: "30%" }} />
+            <span className="w-[3px] bg-white rounded-full" style={{ height: "55%" }} />
+            <span className="w-[3px] bg-white rounded-full" style={{ height: "42%" }} />
+            <span className="w-[3px] bg-white rounded-full" style={{ height: "72%" }} />
+          </span>
+          <span className="font-heading font-bold text-lg sm:text-xl">
+            Bag<span className="text-brand">&Connexion</span>
+          </span>
         </Link>
 
         <div className="flex-1 min-w-[140px] flex items-center border border-line rounded-md overflow-hidden bg-surface focus-within:border-brand">
