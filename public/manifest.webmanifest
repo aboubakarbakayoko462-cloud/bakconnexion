@@ -1,6 +1,6 @@
 {
-  "name": "Bak Connexion",
-  "short_name": "Bak Connexion",
+  "name": "Bag&Connexion",
+  "short_name": "Bag&Connexion",
   "description": "Baffles, sonos et équipements audio, commandés en un message WhatsApp.",
   "start_url": "/",
   "scope": "/",
