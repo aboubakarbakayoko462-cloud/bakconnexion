@@ -42,9 +42,17 @@ export default function Footer() {
     <footer className="bg-navy text-[#9497A3] mt-16">
       <div className="max-w-content mx-auto px-6 md:px-10 py-14 grid grid-cols-2 md:grid-cols-4 gap-10">
         <div className="col-span-2 md:col-span-1">
-          <p className="font-heading font-bold text-xl text-white mb-3">
-            Bak <span className="text-brand">Connexion</span>
-          </p>
+          <div className="flex items-center gap-2 mb-3">
+            <span className="w-7 h-7 rounded-md bg-brand flex items-end justify-center gap-[2.5px] p-1.5 shrink-0">
+              <span className="w-[2.5px] bg-white rounded-full" style={{ height: "30%" }} />
+              <span className="w-[2.5px] bg-white rounded-full" style={{ height: "55%" }} />
+              <span className="w-[2.5px] bg-white rounded-full" style={{ height: "42%" }} />
+              <span className="w-[2.5px] bg-white rounded-full" style={{ height: "72%" }} />
+            </span>
+            <p className="font-heading font-bold text-xl text-white">
+              Bag<span className="text-brand">&Connexion</span>
+            </p>
+          </div>
           <p className="text-sm leading-relaxed max-w-[200px]">
             Du matériel son qui fait vibrer, commandé en un message.
           </p>
@@ -108,7 +116,7 @@ export default function Footer() {
 
       <div className="border-t border-[#2A2D37]">
         <div className="max-w-content mx-auto px-6 md:px-10 py-4 text-xs text-[#6C6F7C]">
-          &copy; {new Date().getFullYear()} Bak Connexion. Tous droits réservés.
+          &copy; {new Date().getFullYear()} Bag&Connexion. Tous droits réservés.
         </div>
       </div>
     </footer>
