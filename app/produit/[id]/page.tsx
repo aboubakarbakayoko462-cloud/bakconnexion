@@ -66,7 +66,7 @@ export default function ProductPage() {
             />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-stone text-sm">
-              Bak Connexion
+              Bag&Connexion
             </div>
           )}
         </div>
