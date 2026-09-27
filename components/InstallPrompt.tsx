@@ -50,11 +50,14 @@ export default function InstallPrompt() {
 
   return (
     <div className="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-4 sm:w-80 z-40 bg-navy text-white rounded-lg shadow-xl p-4 flex items-center gap-3">
-      <div className="w-9 h-9 rounded-md bg-brand flex items-center justify-center font-heading font-bold text-sm shrink-0">
-        B
+      <div className="w-9 h-9 rounded-md bg-brand flex items-end justify-center gap-[3px] p-2 shrink-0">
+        <span className="w-[3px] bg-white rounded-full" style={{ height: "30%" }} />
+        <span className="w-[3px] bg-white rounded-full" style={{ height: "55%" }} />
+        <span className="w-[3px] bg-white rounded-full" style={{ height: "42%" }} />
+        <span className="w-[3px] bg-white rounded-full" style={{ height: "72%" }} />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-sm font-medium">Installer Bak Connexion</p>
+        <p className="text-sm font-medium">Installer Bag&Connexion</p>
         <p className="text-xs text-[#9497A3] mt-0.5">Accès rapide depuis ton écran d'accueil</p>
       </div>
       <button
