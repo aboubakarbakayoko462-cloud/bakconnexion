@@ -22,8 +22,8 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bak Connexion",
-  description: "Bak Connexion — baffles, sonos et équipements audio, commandés en un clic via WhatsApp.",
+  title: "Bag&Connexion",
+  description: "Bag&Connexion — baffles, sonos et équipements audio, commandés en un clic via WhatsApp.",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Bak Connexion",
+    title: "Bag&Connexion",
   },
 };
 
