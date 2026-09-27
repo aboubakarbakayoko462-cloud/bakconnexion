@@ -15,7 +15,7 @@ export function buildWhatsAppOrderLink(
       : "";
 
   const lines = [
-    `Bonjour Bak Connexion 👋`,
+    `Bonjour Bag&Connexion 👋`,
     ``,
     `Je souhaite commander :`,
     `• Produit : ${product.title}`,
