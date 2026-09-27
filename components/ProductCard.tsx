@@ -19,7 +19,7 @@ export default function ProductCard({ product }: { product: Product }) {
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-stone text-xs">
-            Bak Connexion
+            Bag&Connexion
           </div>
         )}
         {product.stock === 0 && (
